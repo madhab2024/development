@@ -1,0 +1,15 @@
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.info{
+    background-color: pink;
+    color: white;
+    border: 2px solid yellow;
+    margin: auto;
+    align-items: center;
+    width: 50%;
+    height: 10rem;
+}

@@ -1,0 +1,44 @@
+body{
+    background-color: wheat;
+    padding: 0%;
+    margin: 0%;
+}
+.icons{
+    background-image: url("/Untitled-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 20px;
+    position: fixed;
+    top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    
+}
+button{
+    padding: 10px;
+    padding-inline: 20px;
+    border-radius: 20px;
+    position: sticky;
+    box-shadow: 5px 5px 25px rgb(255, 242, 0);
+    background-color: rgb(243, 87, 248);
+    border: rgb(242, 205, 22);
+    border-style: groove;
+}
+.logo{
+   padding-right: 97.9px;
+   padding-left: 97.9px;
+}
+
+.foot{
+    padding: 10px;
+    background-color: blueviolet;
+    text-align: center;
+    text-size-adjust: 50px;
+}
+.paragraph{
+    font-size: 50px;
+}

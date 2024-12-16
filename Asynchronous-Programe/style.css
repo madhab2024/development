@@ -1,0 +1,119 @@
+/* Applying fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Title styling */
+.title {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+/* Card styling */
+.card {
+    height: 20rem;
+    width: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Text styling */
+.text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #555;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* Button styling */
+.Ref {
+    margin-top: 1rem;
+    height: 2.7rem;
+    width: 7rem;
+    border-radius: 0.7rem;
+    background-color: rgba(111, 254, 254, 0.603);
+    border: 2px solid rgba(111, 254, 254, 0.8);
+    transition: all 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.Ref:hover {
+    background-color: rgba(233, 249, 163, 0.687);
+    border-color: rgba(233, 249, 163, 0.9);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15), 0 0 10px rgba(233, 249, 163, 0.5);
+    transform: translateY(-3px);
+}
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Title */
+    .title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Card */
+    .card {
+        height: 15rem;
+        width: 20rem;
+    }
+
+    /* Text */
+    .text {
+        font-size: 1.2rem;
+    }
+
+    /* Button */
+    .Ref {
+        height: 2.5rem;
+        width: 6rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Extra Mobile Responsiveness */
+@media (max-width: 480px) {
+    /* Title */
+    .title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    /* Card */
+    .card {
+        height: 12rem;
+        width: 18rem;
+    }
+
+    /* Text */
+    .text {
+        font-size: 1rem;
+    }
+
+    /* Button */
+    .Ref {
+        height: 2.3rem;
+        width: 5.5rem;
+        font-size: 0.85rem;
+    }
+}
